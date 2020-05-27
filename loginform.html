@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <style>
+        * {
+            font-family: arial;
+        }
+
+        input {
+            padding: 10px;
+        }
+
+        div {
+            display: grid;
+            align-items: center;
+            justify-content: center;
+        }
+
+        button {
+            border: 0px;
+            padding: 10px;
+            width: 90px;
+            border-left: 10px blue solid;
+        }
+
+        button:hover {
+            background: #252525;
+            color: antiquewhite;
+            border-left: 10px red solid;
+        }
+
+        form {
+            padding: 30px;
+            background: darksalmon;
+            border-left: 10px gold solid;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <form>
+            <label for="name">
+                <input id="name" placeholder="Enter your username " required /><br />
+            </label><br />
+            <label for="password">
+                <input id="password" placeholder="Enter your password " required /><br />
+            </label><br />
+            <button>Login</button>
+
+        </form>
+    </div>
+</body>
+
+</html>
